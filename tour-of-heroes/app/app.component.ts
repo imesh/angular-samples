@@ -34,7 +34,7 @@ export class AppComponent implements OnInit {
 
   getHeroes(): void {
     // Asyncrhonously fetch heros from hero service
-    this.heroService.getHeroes().then(heroes => this.heroes = heroes);
+    this.heroService.getHeroesSlowly().then(heroes => this.heroes = heroes);
   }
 
   onSelect(hero: Hero): void {
