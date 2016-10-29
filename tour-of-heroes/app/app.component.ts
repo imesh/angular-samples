@@ -5,7 +5,9 @@ import { Component } from '@angular/core';
   template: `
             <h2>My Heroes</h2>
             <ul class="heroes">
-              <li *ngFor="let hero of heros" (click)="onSelect(hero)">
+              <li *ngFor="let hero of heros" 
+                [class.selected]="hero === selectedHero"
+                (click)="onSelect(hero)">
                 <!-- each hero goes here -->
                 <span class="badge">{{hero.id}}</span> {{hero.name}}
               </li>
