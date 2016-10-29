@@ -5,6 +5,8 @@ thumbs.db
 # Angular generated files
 quick-start/app/**/*.js
 quick-start/app/**/*.map
+tour-of-heroes/app/**/*.js
+tour-of-heroes/app/**/*.map
 
 # Node and bower modules and logs
 node_modules/
