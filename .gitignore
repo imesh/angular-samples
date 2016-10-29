@@ -1,0 +1,16 @@
+# OS trash files
+.DS_Store
+thumbs.db
+
+# Angular generated files
+quick-start/app/**/*.js
+quick-start/app/**/*.map
+
+# Node and bower modules and logs
+node_modules/
+npm-debug.log
+bower_components/
+
+# temp and public folders (public will contain the build, like minified files etc)
+public/
+temp/
